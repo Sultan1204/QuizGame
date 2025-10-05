@@ -11,12 +11,10 @@ public class MenuView extends VBox {
         setPadding(new Insets(20));
 
         Label title = new Label("Welcome to the Quiz Game");
-        Button startButton = new Button("Start Quiz");
+        title.setStyle("-fx-font-size: 20px; -fx-font-weight: bold;");
 
-        startButton.setOnAction(e -> {
-            System.out.println("Start button clicked!");
-            // Later this will go to GameView
-        });
+        Button startButton = new Button("Start (sample question)");
+        startButton.setOnAction(e -> Main.ROOT.setCenter(new GameView()));
 
         getChildren().addAll(title, startButton);
     }

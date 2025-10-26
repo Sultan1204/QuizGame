@@ -1,0 +1,46 @@
+.root {
+    -fx-font-family: "Inter", "Segoe UI", sans-serif;
+    -fx-base: #ffffff;
+    -fx-accent: #4f46e5;
+}
+
+.app-title {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+}
+
+.view-title {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+}
+
+.toolbar {
+    -fx-padding: 12 16;
+    -fx-background-color: #f3f4f6;
+    -fx-border-color: #e5e7eb;
+    -fx-border-width: 0 0 1 0;
+}
+
+.primary {
+    -fx-background-color: -fx-accent;
+    -fx-text-fill: white;
+    -fx-font-weight: 600;
+}
+
+.primary:hover {
+    -fx-background-color: #4338ca;
+}
+
+.question-title {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+}
+
+.score-pill {
+    -fx-padding: 4 10;
+    -fx-background-color: #10b981;
+    -fx-text-fill: white;
+    -fx-background-radius: 999;
+    -fx-font-weight: bold;
+    -fx-translate-y: 2;
+}
